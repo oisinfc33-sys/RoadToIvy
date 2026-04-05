@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+    <div class="hero-copy">
+        <h1>Build the coldest path to your target university.</h1>
+        <p>RoadToIvy ingests student academics, extracurriculars, and target course intent, then benchmarks that profile against elite university-program pathways.</p>
+    </div>
+    <div class="hero-panel">
+        <div class="metric"><span>26+</span> elite schools seeded</div>
+        <div class="metric"><span>60+</span> program profiles</div>
+        <div class="metric"><span>1</span> ruthless gap analysis</div>
+    </div>
+</section>
+
+{% if error %}
+<div class="error">{{ error }}</div>
+{% endif %}
+
+<form class="intake-card" method="POST" action="/analyze">
+    <div class="section-title">Student profile input</div>
+    <div class="form-grid">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Age<input type="number" name="age" min="12" max="25" required></label>
+        <label>Gender<input type="text" name="gender" placeholder="Optional style field"></label>
+        <label>Target course<input type="text" name="course" placeholder="e.g. Computer Science, Law, Mechanical Engineering" required></label>
+    </div>
+
+    <div class="split-grid">
+        <label>Grades by subject
+            <textarea name="grades" rows="12" placeholder="Mathematics: 97&#10;Physics: 95&#10;English: 91&#10;Computer Science: 98" required></textarea>
+        </label>
+        <label>Extracurriculars / achievements
+            <textarea name="extracurriculars" rows="12" placeholder="Research internship in robotics&#10;National award in mathematics olympiad&#10;Founder of coding club&#10;Volunteering at legal clinic"></textarea>
+        </label>
+    </div>
+
+    <button type="submit">Run assessment</button>
+</form>
+{% endblock %}

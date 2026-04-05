@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="result-header">
+    <div>
+        <div class="eyebrow">student profile</div>
+        <h1>{{ student.name }} · {{ student.course }}</h1>
+        <p>RoadToIvy calculated academic fit, subject fit, and extracurricular strength against elite program benchmarks.</p>
+    </div>
+    <a class="back-link" href="/">New assessment</a>
+</section>
+
+<section class="dream-card">
+    <div class="eyebrow">top matching target</div>
+    <h2>{{ dream.university_name }} — {{ dream.program_name }}</h2>
+    <div class="chips">
+        <span>{{ dream.country }}</span>
+        <span>{{ dream.level }}</span>
+        <span>{{ dream.tier }}</span>
+        <span>{{ dream.verdict }}</span>
+    </div>
+    <div class="scoreline">
+        <div><strong>{{ dream.readiness }}</strong><small>readiness</small></div>
+        <div><strong>{{ dream.avg }}</strong><small>current avg</small></div>
+        <div><strong>{{ dream.target_avg }}</strong><small>elite avg target</small></div>
+        <div><strong>{{ dream.ec_score }}</strong><small>activity score</small></div>
+    </div>
+    <p class="notes">{{ dream.university_notes }} {{ dream.profile_notes }}</p>
+    {% if dream.language_notes %}<p class="notes">Language constraint: {{ dream.language_notes }}</p>{% endif %}
+</section>
+
+<section class="report-grid">
+    <div class="panel">
+        <div class="section-title">What you need to do</div>
+        <ul>
+            {% for step in dream.next_steps %}
+            <li>{{ step }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="panel">
+        <div class="section-title">Program expectations</div>
+        <ul>
+            <li>Ranking band: {{ dream.ranking_band }}</li>
+            <li>Selectivity: {{ dream.acceptance_band }}</li>
+            <li>Required tests/components: {{ dream.required_tests|join(', ') if dream.required_tests else 'None listed in seed profile' }}</li>
+            <li>Profile focus: {{ dream.profile_focus|join(', ') if dream.profile_focus else 'Pure academic strength' }}</li>
+            <li>Missing required subjects: {{ dream.missing_subjects|join(', ') if dream.missing_subjects else 'None detected' }}</li>
+        </ul>
+    </div>
+</section>
+
+<section class="table-card">
+    <div class="section-title">Elite matches</div>
+    <table>
+        <thead>
+            <tr>
+                <th>University</th>
+                <th>Program</th>
+                <th>Country</th>
+                <th>Tier</th>
+                <th>Readiness</th>
+                <th>Verdict</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in scored %}
+            <tr>
+                <td>{{ item.university_name }}</td>
+                <td>{{ item.program_name }}</td>
+                <td>{{ item.country }}</td>
+                <td>{{ item.tier }}</td>
+                <td>{{ item.readiness }}</td>
+                <td>{{ item.verdict }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %}

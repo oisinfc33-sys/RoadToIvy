@@ -1,0 +1,80 @@
+:root {
+    --bg: #06070b;
+    --panel: #0f1117;
+    --panel-2: #121621;
+    --line: rgba(255,255,255,0.08);
+    --text: #f3f5f7;
+    --muted: #9ea7b3;
+    --accent: #9ec6ff;
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at top, #11182c 0%, var(--bg) 45%);
+    color: var(--text);
+    min-height: 100vh;
+}
+main { max-width: 1180px; margin: 0 auto; padding: 28px; }
+.topbar {
+    display: flex; justify-content: space-between; align-items: center;
+    max-width: 1180px; margin: 0 auto; padding: 24px 28px 0;
+}
+.brand { font-size: 1.9rem; font-weight: 800; letter-spacing: -0.04em; }
+.subbrand, .eyebrow, .tag { color: var(--muted); text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.72rem; }
+.hero, .dream-card, .intake-card, .panel, .table-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+}
+.hero { display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; padding: 34px; margin-top: 30px; }
+.hero h1, .result-header h1 { margin: 0 0 12px; font-size: 3rem; line-height: 0.98; letter-spacing: -0.05em; }
+.hero p, .result-header p, .notes { color: var(--muted); line-height: 1.6; }
+.hero-panel { display: grid; gap: 14px; }
+.metric {
+    background: var(--panel-2); border: 1px solid var(--line); border-radius: 18px;
+    padding: 18px; color: var(--muted);
+}
+.metric span { color: var(--text); font-size: 2rem; font-weight: 800; display: block; }
+.intake-card { padding: 28px; margin-top: 24px; }
+.form-grid, .split-grid, .report-grid, .scoreline { display: grid; gap: 18px; }
+.form-grid { grid-template-columns: repeat(4, 1fr); }
+.split-grid, .report-grid { grid-template-columns: 1fr 1fr; margin-top: 18px; }
+label { display: block; font-size: 0.9rem; color: var(--muted); }
+input, textarea, button, .back-link {
+    width: 100%; border-radius: 16px; border: 1px solid var(--line); background: var(--panel);
+    color: var(--text); padding: 14px 15px; font: inherit; margin-top: 8px;
+}
+textarea { resize: vertical; }
+button, .back-link {
+    background: linear-gradient(180deg, #e8eef8, #9ec6ff); color: #07111f; font-weight: 800;
+    cursor: pointer; margin-top: 20px; text-decoration: none; display: inline-flex; justify-content: center;
+}
+.section-title { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--muted); margin-bottom: 14px; }
+.result-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; margin: 28px 0 22px; }
+.dream-card { padding: 28px; }
+.dream-card h2 { font-size: 2rem; letter-spacing: -0.04em; margin: 8px 0 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+.chips span {
+    border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; color: var(--muted); background: var(--panel);
+}
+.scoreline { grid-template-columns: repeat(4, 1fr); margin: 18px 0; }
+.scoreline div { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.scoreline strong { display: block; font-size: 2rem; }
+.scoreline small { color: var(--muted); text-transform: uppercase; letter-spacing: 0.15em; }
+.panel, .table-card { padding: 24px; margin-top: 22px; }
+.panel ul { margin: 0; padding-left: 18px; color: var(--muted); line-height: 1.8; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 14px 12px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.12em; }
+.error {
+    margin-top: 18px; padding: 14px 16px; border: 1px solid rgba(255, 98, 98, 0.35); color: #ffd0d0;
+    background: rgba(122, 20, 20, 0.22); border-radius: 16px;
+}
+@media (max-width: 900px) {
+    .hero, .form-grid, .split-grid, .report-grid, .scoreline { grid-template-columns: 1fr; }
+    .result-header, .topbar { flex-direction: column; }
+    .hero h1, .result-header h1 { font-size: 2.2rem; }
+}

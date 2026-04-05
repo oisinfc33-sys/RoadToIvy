@@ -1,0 +1,2069 @@
+{
+  "universities": [
+    {
+      "name": "Harvard University",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 5",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Holistic review, academic excellence, leadership, and unusual distinction matter heavily.",
+      "programs": [
+        {
+          "program_name": "Government",
+          "level": "Undergraduate",
+          "field_group": "politics public policy humanities",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 18,
+          "stretch_ec_score": 34,
+          "required_subjects": [
+            "English",
+            "History"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Teacher recommendations"
+          ],
+          "leadership_importance": 5,
+          "research_importance": 3,
+          "service_importance": 4,
+          "profile_notes": "Spike plus strong writing and initiative."
+        },
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics business finance",
+          "min_avg": 94,
+          "stretch_avg": 97,
+          "min_ec_score": 18,
+          "stretch_ec_score": 35,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Teacher recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 3,
+          "service_importance": 3,
+          "profile_notes": "Quant strength plus initiative and achievement."
+        },
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 20,
+          "stretch_ec_score": 36,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Teacher recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 4,
+          "service_importance": 2,
+          "profile_notes": "Strong technical depth, projects, competition or research help."
+        },
+        {
+          "program_name": "Law (J.D.)",
+          "level": "Postgraduate",
+          "field_group": "law legal studies",
+          "min_avg": 92,
+          "stretch_avg": 96,
+          "min_ec_score": 16,
+          "stretch_ec_score": 30,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "History"
+          ],
+          "required_tests": [
+            "LSAT or GRE",
+            "Personal statement",
+            "Recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 3,
+          "service_importance": 4,
+          "work_experience_importance": 3,
+          "postgraduate_only": true,
+          "profile_notes": "Requires bachelor degree first; elite writing and evidence of judgment matter."
+        }
+      ]
+    },
+    {
+      "name": "Stanford University",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 5",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Top-tier academics, intellectual vitality, maker profile and initiative are prized.",
+      "programs": [
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 18,
+          "stretch_ec_score": 34,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Essays",
+            "Teacher recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 4,
+          "service_importance": 2,
+          "profile_notes": "Builds well from engineering projects, robotics, research, and competition results."
+        },
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 95,
+          "stretch_avg": 98,
+          "min_ec_score": 20,
+          "stretch_ec_score": 36,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Teacher recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 5,
+          "service_importance": 2,
+          "profile_notes": "Projects, shipped products, research and olympiad-level output stand out."
+        },
+        {
+          "program_name": "Symbolic Systems",
+          "level": "Undergraduate",
+          "field_group": "ai cognitive science computer science",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 17,
+          "stretch_ec_score": 31,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Essays",
+            "Teacher recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 2,
+          "profile_notes": "Interdisciplinary excellence plus clear narrative."
+        }
+      ]
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 5",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Mathematical rigor, maker culture and problem solving at the highest level.",
+      "programs": [
+        {
+          "program_name": "Computer Science and Engineering",
+          "level": "Undergraduate",
+          "field_group": "computer science software engineering ai",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 22,
+          "stretch_ec_score": 38,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 5,
+          "service_importance": 2,
+          "profile_notes": "Olympiads, advanced projects, research and technical evidence matter."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering robotics",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 20,
+          "stretch_ec_score": 36,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Chemistry",
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 5,
+          "service_importance": 2,
+          "profile_notes": "Robotics, build portfolio and physics depth are valuable."
+        }
+      ]
+    },
+    {
+      "name": "Princeton University",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 15",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Small cohort, intense academics, independent thinking.",
+      "programs": [
+        {
+          "program_name": "Public Policy",
+          "level": "Undergraduate",
+          "field_group": "politics public policy economics",
+          "min_avg": 94,
+          "stretch_avg": 97,
+          "min_ec_score": 18,
+          "stretch_ec_score": 33,
+          "required_subjects": [
+            "English",
+            "History"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 5,
+          "research_importance": 3,
+          "service_importance": 4,
+          "profile_notes": "Civic leadership and elite writing matter."
+        },
+        {
+          "program_name": "Mathematics",
+          "level": "Undergraduate",
+          "field_group": "math quantitative",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 16,
+          "stretch_ec_score": 28,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Proof-based strength and distinction in math help."
+        }
+      ]
+    },
+    {
+      "name": "Yale University",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 15",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Holistic and narrative driven, with emphasis on depth and voice.",
+      "programs": [
+        {
+          "program_name": "Political Science",
+          "level": "Undergraduate",
+          "field_group": "politics humanities",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 18,
+          "stretch_ec_score": 34,
+          "required_subjects": [
+            "English",
+            "History"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 5,
+          "research_importance": 3,
+          "service_importance": 4,
+          "profile_notes": "Writing, leadership and originality matter."
+        },
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 18,
+          "stretch_ec_score": 34,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 2,
+          "profile_notes": "Strong academics plus technical projects."
+        }
+      ]
+    },
+    {
+      "name": "Columbia University",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 20",
+      "acceptance_band": "Ultra-selective",
+      "notes": "High academic threshold with strong writing and ambition.",
+      "programs": [
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics business finance",
+          "min_avg": 94,
+          "stretch_avg": 97,
+          "min_ec_score": 18,
+          "stretch_ec_score": 33,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 3,
+          "service_importance": 2,
+          "profile_notes": "Quant and ambition with polished narrative."
+        },
+        {
+          "program_name": "Data Science",
+          "level": "Undergraduate",
+          "field_group": "data science computer science statistics",
+          "min_avg": 95,
+          "stretch_avg": 98,
+          "min_ec_score": 18,
+          "stretch_ec_score": 34,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Projects and competition outcomes help."
+        }
+      ]
+    },
+    {
+      "name": "University of Pennsylvania",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 20",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Sharp pre-professional edge with holistic review.",
+      "programs": [
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business",
+          "min_avg": 94,
+          "stretch_avg": 97,
+          "min_ec_score": 18,
+          "stretch_ec_score": 34,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 3,
+          "service_importance": 2,
+          "profile_notes": "Business-minded achievement and rigor matter."
+        },
+        {
+          "program_name": "Bioengineering",
+          "level": "Undergraduate",
+          "field_group": "engineering biology biotech",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 18,
+          "stretch_ec_score": 33,
+          "required_subjects": [
+            "Mathematics",
+            "Physics",
+            "Biology"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 2,
+          "profile_notes": "Research and biotech projects strengthen profile."
+        }
+      ]
+    },
+    {
+      "name": "Cornell University",
+      "country": "USA",
+      "tier": "A1",
+      "ranking_band": "Global Top 25",
+      "acceptance_band": "Very selective",
+      "notes": "Academic rigor plus clear fit for major.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 17,
+          "stretch_ec_score": 32,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Major-fit and technical output matter."
+        },
+        {
+          "program_name": "Hotel Administration",
+          "level": "Undergraduate",
+          "field_group": "hospitality business management",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 18,
+          "stretch_ec_score": 32,
+          "required_subjects": [
+            "English",
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 1,
+          "service_importance": 3,
+          "work_experience_importance": 4,
+          "profile_notes": "Operations, customer-facing experience and leadership help strongly."
+        }
+      ]
+    },
+    {
+      "name": "Duke University",
+      "country": "USA",
+      "tier": "A2",
+      "ranking_band": "Global Top 30",
+      "acceptance_band": "Very selective",
+      "notes": "High academic threshold and major emphasis on initiative.",
+      "programs": [
+        {
+          "program_name": "Biomedical Engineering",
+          "level": "Undergraduate",
+          "field_group": "engineering biology biotech",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 17,
+          "stretch_ec_score": 31,
+          "required_subjects": [
+            "Mathematics",
+            "Physics",
+            "Biology"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 2,
+          "profile_notes": "Research and healthcare-oriented service help."
+        },
+        {
+          "program_name": "Public Policy",
+          "level": "Undergraduate",
+          "field_group": "politics public policy economics",
+          "min_avg": 92,
+          "stretch_avg": 96,
+          "min_ec_score": 17,
+          "stretch_ec_score": 30,
+          "required_subjects": [
+            "English",
+            "History"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 5,
+          "research_importance": 2,
+          "service_importance": 4,
+          "profile_notes": "Debate, leadership and civic activity help."
+        }
+      ]
+    },
+    {
+      "name": "University of Chicago",
+      "country": "USA",
+      "tier": "A2",
+      "ranking_band": "Global Top 25",
+      "acceptance_band": "Very selective",
+      "notes": "Very academic, analytical and intellectually serious.",
+      "programs": [
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance quantitative",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 15,
+          "stretch_ec_score": 28,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Serious quantitative ability and intellectual style matter."
+        },
+        {
+          "program_name": "Physics",
+          "level": "Undergraduate",
+          "field_group": "physics science",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 15,
+          "stretch_ec_score": 28,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 5,
+          "service_importance": 1,
+          "profile_notes": "Olympiad and research signals help strongly."
+        }
+      ]
+    },
+    {
+      "name": "Northwestern University",
+      "country": "USA",
+      "tier": "A2",
+      "ranking_band": "Global Top 40",
+      "acceptance_band": "Very selective",
+      "notes": "Strong across STEM, journalism and business-adjacent tracks.",
+      "programs": [
+        {
+          "program_name": "Journalism",
+          "level": "Undergraduate",
+          "field_group": "journalism media english",
+          "min_avg": 91,
+          "stretch_avg": 96,
+          "min_ec_score": 18,
+          "stretch_ec_score": 32,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "History"
+          ],
+          "required_tests": [
+            "Essays",
+            "Portfolio of writing"
+          ],
+          "portfolio_required": true,
+          "leadership_importance": 3,
+          "research_importance": 2,
+          "service_importance": 2,
+          "profile_notes": "Published work and consistent output matter."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 92,
+          "stretch_avg": 96,
+          "min_ec_score": 16,
+          "stretch_ec_score": 30,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Essays",
+            "Recommendations"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Build portfolio and technical depth help."
+        }
+      ]
+    },
+    {
+      "name": "University of California, Berkeley",
+      "country": "USA",
+      "tier": "A2",
+      "ranking_band": "Global Top 20",
+      "acceptance_band": "Highly selective",
+      "notes": "Academic rigor and field-specific excellence matter strongly.",
+      "programs": [
+        {
+          "program_name": "Electrical Engineering and Computer Sciences",
+          "level": "Undergraduate",
+          "field_group": "computer science software engineering ai",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 18,
+          "stretch_ec_score": 33,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Essays"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 5,
+          "service_importance": 1,
+          "profile_notes": "Projects, math depth and competition results help."
+        },
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business",
+          "min_avg": 92,
+          "stretch_avg": 96,
+          "min_ec_score": 15,
+          "stretch_ec_score": 28,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Quant performance matters more than fluff."
+        }
+      ]
+    },
+    {
+      "name": "University of Michigan",
+      "country": "USA",
+      "tier": "B1",
+      "ranking_band": "Global Top 30",
+      "acceptance_band": "Selective",
+      "notes": "Excellent high-end public option with top programs.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software engineering ai",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 14,
+          "stretch_ec_score": 26,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Essays"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Projects and rigor remain important."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 14,
+          "stretch_ec_score": 26,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Essays"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Technical coursework and build work matter."
+        }
+      ]
+    },
+    {
+      "name": "University of Toronto",
+      "country": "Canada",
+      "tier": "A2",
+      "ranking_band": "Global Top 30",
+      "acceptance_band": "Highly selective",
+      "notes": "Exceptional academics with strong research environment.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 92,
+          "stretch_avg": 97,
+          "min_ec_score": 14,
+          "stretch_ec_score": 28,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Supplemental application"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Strong marks and technical output help."
+        },
+        {
+          "program_name": "Engineering Science",
+          "level": "Undergraduate",
+          "field_group": "engineering mechanical electrical aerospace",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 14,
+          "stretch_ec_score": 28,
+          "required_subjects": [
+            "Mathematics",
+            "Physics",
+            "Chemistry"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Supplemental application"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 4,
+          "service_importance": 1,
+          "profile_notes": "Very rigorous; top math-science profile matters."
+        }
+      ]
+    },
+    {
+      "name": "McGill University",
+      "country": "Canada",
+      "tier": "A2",
+      "ranking_band": "Global Top 40",
+      "acceptance_band": "Selective",
+      "notes": "Strong grades-first approach with respected global brand.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 10,
+          "stretch_ec_score": 22,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Transcript and course prerequisites"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Grades and prerequisites carry most of the weight."
+        },
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business",
+          "min_avg": 89,
+          "stretch_avg": 94,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Transcript and course prerequisites"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Academics-first target."
+        }
+      ]
+    },
+    {
+      "name": "University of British Columbia",
+      "country": "Canada",
+      "tier": "B1",
+      "ranking_band": "Global Top 50",
+      "acceptance_band": "Selective",
+      "notes": "Strong holistic-public mix with top West Coast reputation.",
+      "programs": [
+        {
+          "program_name": "Applied Science",
+          "level": "Undergraduate",
+          "field_group": "engineering mechanical civil electrical",
+          "min_avg": 89,
+          "stretch_avg": 94,
+          "min_ec_score": 12,
+          "stretch_ec_score": 24,
+          "required_subjects": [
+            "Mathematics",
+            "Physics",
+            "Chemistry"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Personal profile"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 2,
+          "service_importance": 2,
+          "profile_notes": "Balanced academics and profile."
+        },
+        {
+          "program_name": "Sauder Business",
+          "level": "Undergraduate",
+          "field_group": "business finance management economics",
+          "min_avg": 89,
+          "stretch_avg": 94,
+          "min_ec_score": 14,
+          "stretch_ec_score": 26,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Personal profile"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 1,
+          "service_importance": 2,
+          "profile_notes": "Leadership and initiative count."
+        }
+      ]
+    },
+    {
+      "name": "University of Waterloo",
+      "country": "Canada",
+      "tier": "A2",
+      "ranking_band": "Global Top 150 with elite niche strength",
+      "acceptance_band": "Highly selective for top programs",
+      "notes": "Extremely strong for CS, math, engineering and co-op outcomes.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 12,
+          "stretch_ec_score": 24,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Admission Information Form"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Contest math/programming and projects are valuable."
+        },
+        {
+          "program_name": "Software Engineering",
+          "level": "Undergraduate",
+          "field_group": "software engineering computer science",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 14,
+          "stretch_ec_score": 26,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Admission Information Form",
+            "Interview"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Strong technical achievement matters heavily."
+        }
+      ]
+    },
+    {
+      "name": "University of Oxford",
+      "country": "UK",
+      "tier": "A1",
+      "ranking_band": "Global Top 5",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Course-specific selection with exacting academic requirements.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Further Maths"
+          ],
+          "required_tests": [
+            "TMUA",
+            "Interview"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Math depth matters far more than generic extracurriculars."
+        },
+        {
+          "program_name": "Law",
+          "level": "Undergraduate",
+          "field_group": "law legal studies humanities",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "History"
+          ],
+          "required_tests": [
+            "LNAT",
+            "Interview"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Analytical reading and argumentation matter."
+        },
+        {
+          "program_name": "PPE",
+          "level": "Undergraduate",
+          "field_group": "politics economics philosophy public policy",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "History",
+            "Economics"
+          ],
+          "required_tests": [
+            "TSA",
+            "Interview"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Sharp reasoning and academic precision dominate."
+        }
+      ]
+    },
+    {
+      "name": "University of Cambridge",
+      "country": "UK",
+      "tier": "A1",
+      "ranking_band": "Global Top 10",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Academics-first, super-curricular depth matters.",
+      "programs": [
+        {
+          "program_name": "Engineering",
+          "level": "Undergraduate",
+          "field_group": "engineering mechanical civil electrical",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Further Maths",
+            "Chemistry"
+          ],
+          "required_tests": [
+            "ESAT",
+            "Interview"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Super-curricular evidence and problem-solving are key."
+        },
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Further Maths",
+            "Computer Science"
+          ],
+          "required_tests": [
+            "TMUA",
+            "Interview"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Math proof strength and super-curricular depth matter."
+        },
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 10,
+          "stretch_ec_score": 20,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Further Maths",
+            "Economics"
+          ],
+          "required_tests": [
+            "TMUA",
+            "Interview"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Quantitative rigor dominates."
+        }
+      ]
+    },
+    {
+      "name": "Imperial College London",
+      "country": "UK",
+      "tier": "A1",
+      "ranking_band": "Global Top 10",
+      "acceptance_band": "Ultra-selective for STEM",
+      "notes": "STEM-intense, math and science requirements are strict.",
+      "programs": [
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 8,
+          "stretch_ec_score": 18,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Further Maths"
+          ],
+          "required_tests": [
+            "Interview or departmental assessment"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Strong STEM attainment outweighs generic activities."
+        },
+        {
+          "program_name": "Computing",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 8,
+          "stretch_ec_score": 18,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Further Maths",
+            "Computer Science"
+          ],
+          "required_tests": [
+            "TMUA or departmental assessment"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Math and coding depth matter."
+        }
+      ]
+    },
+    {
+      "name": "London School of Economics and Political Science",
+      "country": "UK",
+      "tier": "A1",
+      "ranking_band": "Global elite by subject",
+      "acceptance_band": "Ultra-selective",
+      "notes": "Social science specialist with very high academic bar.",
+      "programs": [
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business quantitative",
+          "min_avg": 95,
+          "stretch_avg": 99,
+          "min_ec_score": 8,
+          "stretch_ec_score": 18,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Further Maths",
+            "Economics"
+          ],
+          "required_tests": [
+            "TMUA or equivalent assessment"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Super-curricular economics and math depth matter."
+        },
+        {
+          "program_name": "Politics and Economics",
+          "level": "Undergraduate",
+          "field_group": "politics economics public policy",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 8,
+          "stretch_ec_score": 18,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "History",
+            "Economics"
+          ],
+          "required_tests": [
+            "Admissions assessment if required"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Academic reading and analytical writing matter."
+        }
+      ]
+    },
+    {
+      "name": "University College London",
+      "country": "UK",
+      "tier": "A2",
+      "ranking_band": "Global Top 20",
+      "acceptance_band": "Very selective",
+      "notes": "Excellent across medicine, law, engineering and humanities.",
+      "programs": [
+        {
+          "program_name": "Law",
+          "level": "Undergraduate",
+          "field_group": "law legal studies humanities",
+          "min_avg": 92,
+          "stretch_avg": 97,
+          "min_ec_score": 8,
+          "stretch_ec_score": 18,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "History"
+          ],
+          "required_tests": [
+            "LNAT"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Strong argumentation and reading matter."
+        },
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 93,
+          "stretch_avg": 97,
+          "min_ec_score": 8,
+          "stretch_ec_score": 18,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Further Maths",
+            "Computer Science"
+          ],
+          "required_tests": [
+            "STAT or equivalent if required"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Math and coding evidence matter."
+        }
+      ]
+    },
+    {
+      "name": "King's College London",
+      "country": "UK",
+      "tier": "B1",
+      "ranking_band": "Global Top 40",
+      "acceptance_band": "Selective",
+      "notes": "Strong for law, policy and health fields.",
+      "programs": [
+        {
+          "program_name": "Law",
+          "level": "Undergraduate",
+          "field_group": "law legal studies humanities",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 8,
+          "stretch_ec_score": 16,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "History"
+          ],
+          "required_tests": [
+            "LNAT"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Academics-first with legal aptitude."
+        },
+        {
+          "program_name": "Medicine",
+          "level": "Undergraduate",
+          "field_group": "medicine biomedical health",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 12,
+          "stretch_ec_score": 24,
+          "required_subjects": [
+            "Biology",
+            "Chemistry"
+          ],
+          "recommended_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "required_tests": [
+            "UCAT",
+            "Interview"
+          ],
+          "leadership_importance": 2,
+          "research_importance": 2,
+          "service_importance": 4,
+          "work_experience_importance": 4,
+          "profile_notes": "Healthcare exposure and sustained service matter."
+        }
+      ]
+    },
+    {
+      "name": "University of Edinburgh",
+      "country": "UK",
+      "tier": "B1",
+      "ranking_band": "Global Top 40",
+      "acceptance_band": "Selective",
+      "notes": "Top UK option with strong international draw.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 6,
+          "stretch_ec_score": 14,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Standard application materials"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Academics and fit are central."
+        },
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business",
+          "min_avg": 89,
+          "stretch_avg": 94,
+          "min_ec_score": 6,
+          "stretch_ec_score": 14,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Standard application materials"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Strong marks dominate."
+        }
+      ]
+    },
+    {
+      "name": "ETH Zurich",
+      "country": "Switzerland",
+      "tier": "A1",
+      "ranking_band": "Global Top 10",
+      "acceptance_band": "Highly selective with formal academic requirements",
+      "notes": "Exceptionally strong for engineering, CS and natural sciences; German matters for bachelors.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 6,
+          "stretch_ec_score": 14,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Physics",
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "language_notes": "Most bachelor programmes require German proficiency.",
+          "profile_notes": "Formal subject strength matters more than extracurricular packaging."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 94,
+          "stretch_avg": 98,
+          "min_ec_score": 6,
+          "stretch_ec_score": 14,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "language_notes": "Most bachelor programmes require German proficiency.",
+          "profile_notes": "High quantitative strength is essential."
+        }
+      ]
+    },
+    {
+      "name": "EPFL",
+      "country": "Switzerland",
+      "tier": "A2",
+      "ranking_band": "Global Top 30",
+      "acceptance_band": "Selective with formal academic standards",
+      "notes": "Top continental STEM option; strong math-science preparation required.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 92,
+          "stretch_avg": 96,
+          "min_ec_score": 6,
+          "stretch_ec_score": 12,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Physics",
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "language_notes": "Undergraduate teaching frequently involves French; check language readiness.",
+          "profile_notes": "Formal academic readiness matters most."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 92,
+          "stretch_avg": 96,
+          "min_ec_score": 6,
+          "stretch_ec_score": 12,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "language_notes": "Undergraduate teaching frequently involves French; check language readiness.",
+          "profile_notes": "Quantitative readiness is central."
+        }
+      ]
+    },
+    {
+      "name": "Technical University of Munich",
+      "country": "Germany",
+      "tier": "A2",
+      "ranking_band": "European Top STEM",
+      "acceptance_band": "Selective",
+      "notes": "Strong engineering and CS option; some bachelors in German, some in English at advanced stages.",
+      "programs": [
+        {
+          "program_name": "Mechanical Engineering",
+          "level": "Undergraduate",
+          "field_group": "mechanical engineering engineering robotics",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 5,
+          "stretch_ec_score": 10,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "language_notes": "Many undergraduate pathways require German proficiency.",
+          "profile_notes": "Formal prerequisites are key."
+        },
+        {
+          "program_name": "Informatics",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 5,
+          "stretch_ec_score": 10,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "language_notes": "Language of instruction depends on programme; verify current route.",
+          "profile_notes": "Strong core grades matter most."
+        }
+      ]
+    },
+    {
+      "name": "LMU Munich",
+      "country": "Germany",
+      "tier": "B1",
+      "ranking_band": "European Top Research",
+      "acceptance_band": "Selective",
+      "notes": "Excellent broad academic reputation with strong sciences.",
+      "programs": [
+        {
+          "program_name": "Economics",
+          "level": "Undergraduate",
+          "field_group": "economics finance business",
+          "min_avg": 88,
+          "stretch_avg": 93,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "language_notes": "Check programme language and qualification equivalence.",
+          "profile_notes": "Grades and prerequisite fit dominate."
+        },
+        {
+          "program_name": "Physics",
+          "level": "Undergraduate",
+          "field_group": "physics science",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "language_notes": "Check programme language and qualification equivalence.",
+          "profile_notes": "Core STEM strength is the main factor."
+        }
+      ]
+    },
+    {
+      "name": "Delft University of Technology",
+      "country": "Netherlands",
+      "tier": "A2",
+      "ranking_band": "European Top Engineering",
+      "acceptance_band": "Selective",
+      "notes": "Elite engineering option in Europe.",
+      "programs": [
+        {
+          "program_name": "Aerospace Engineering",
+          "level": "Undergraduate",
+          "field_group": "engineering aerospace mechanical",
+          "min_avg": 91,
+          "stretch_avg": 96,
+          "min_ec_score": 6,
+          "stretch_ec_score": 12,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Selection procedure"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Math-physics readiness is crucial."
+        },
+        {
+          "program_name": "Computer Science and Engineering",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 6,
+          "stretch_ec_score": 12,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science",
+            "Physics"
+          ],
+          "required_tests": [
+            "Selection procedure"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Formal selection and quantitative readiness matter."
+        }
+      ]
+    },
+    {
+      "name": "University of Amsterdam",
+      "country": "Netherlands",
+      "tier": "B1",
+      "ranking_band": "European Top 60",
+      "acceptance_band": "Selective",
+      "notes": "Strong broad-based research university.",
+      "programs": [
+        {
+          "program_name": "Economics and Business Economics",
+          "level": "Undergraduate",
+          "field_group": "economics business finance",
+          "min_avg": 86,
+          "stretch_avg": 92,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Grades and quantitative readiness are central."
+        },
+        {
+          "program_name": "Psychology",
+          "level": "Undergraduate",
+          "field_group": "psychology social science",
+          "min_avg": 87,
+          "stretch_avg": 92,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "Biology",
+            "Mathematics"
+          ],
+          "required_tests": [
+            "Selection procedure if capped"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Strong academics and fit matter."
+        }
+      ]
+    },
+    {
+      "name": "Sciences Po",
+      "country": "France",
+      "tier": "A2",
+      "ranking_band": "European elite in social sciences",
+      "acceptance_band": "Selective",
+      "notes": "Top European option for politics, policy and social sciences.",
+      "programs": [
+        {
+          "program_name": "Politics and Government",
+          "level": "Undergraduate",
+          "field_group": "politics public policy humanities",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 12,
+          "stretch_ec_score": 24,
+          "required_subjects": [
+            "English",
+            "History"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Essays",
+            "Interview"
+          ],
+          "leadership_importance": 4,
+          "research_importance": 2,
+          "service_importance": 3,
+          "profile_notes": "Global awareness and civic engagement matter."
+        },
+        {
+          "program_name": "Economics and Society",
+          "level": "Undergraduate",
+          "field_group": "economics politics sociology",
+          "min_avg": 90,
+          "stretch_avg": 95,
+          "min_ec_score": 10,
+          "stretch_ec_score": 22,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics",
+            "History"
+          ],
+          "required_tests": [
+            "Essays",
+            "Interview"
+          ],
+          "leadership_importance": 3,
+          "research_importance": 2,
+          "service_importance": 2,
+          "profile_notes": "Analytical and international profile help."
+        }
+      ]
+    },
+    {
+      "name": "PSL University",
+      "country": "France",
+      "tier": "A2",
+      "ranking_band": "European Top 30",
+      "acceptance_band": "Selective",
+      "notes": "Highly respected French research cluster with elite programmes.",
+      "programs": [
+        {
+          "program_name": "Mathematics",
+          "level": "Undergraduate",
+          "field_group": "math quantitative",
+          "min_avg": 92,
+          "stretch_avg": 97,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Physics"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Strong theoretical preparation matters."
+        },
+        {
+          "program_name": "Physics",
+          "level": "Undergraduate",
+          "field_group": "physics science",
+          "min_avg": 92,
+          "stretch_avg": 97,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Formal qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 3,
+          "service_importance": 1,
+          "profile_notes": "Very strong STEM base required."
+        }
+      ]
+    },
+    {
+      "name": "Trinity College Dublin",
+      "country": "Ireland",
+      "tier": "B1",
+      "ranking_band": "European Top 100",
+      "acceptance_band": "Selective",
+      "notes": "Prestigious English-speaking European option.",
+      "programs": [
+        {
+          "program_name": "Computer Science",
+          "level": "Undergraduate",
+          "field_group": "computer science software ai engineering",
+          "min_avg": 88,
+          "stretch_avg": 93,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics"
+          ],
+          "recommended_subjects": [
+            "Computer Science"
+          ],
+          "required_tests": [
+            "Qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 2,
+          "service_importance": 1,
+          "profile_notes": "Marks and prerequisites matter."
+        },
+        {
+          "program_name": "Law",
+          "level": "Undergraduate",
+          "field_group": "law legal studies humanities",
+          "min_avg": 88,
+          "stretch_avg": 93,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "English"
+          ],
+          "recommended_subjects": [
+            "History"
+          ],
+          "required_tests": [
+            "Qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Academic performance is central."
+        }
+      ]
+    },
+    {
+      "name": "KU Leuven",
+      "country": "Belgium",
+      "tier": "B1",
+      "ranking_band": "European Top 60",
+      "acceptance_band": "Selective",
+      "notes": "Research-intensive continental option with strong STEM and economics.",
+      "programs": [
+        {
+          "program_name": "Engineering Technology",
+          "level": "Undergraduate",
+          "field_group": "engineering mechanical electrical",
+          "min_avg": 87,
+          "stretch_avg": 92,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics",
+            "Physics"
+          ],
+          "recommended_subjects": [
+            "Chemistry"
+          ],
+          "required_tests": [
+            "Qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Formal readiness matters."
+        },
+        {
+          "program_name": "Business Engineering",
+          "level": "Undergraduate",
+          "field_group": "business economics quantitative",
+          "min_avg": 87,
+          "stretch_avg": 92,
+          "min_ec_score": 4,
+          "stretch_ec_score": 8,
+          "required_subjects": [
+            "Mathematics",
+            "English"
+          ],
+          "recommended_subjects": [
+            "Economics"
+          ],
+          "required_tests": [
+            "Qualification review"
+          ],
+          "leadership_importance": 1,
+          "research_importance": 1,
+          "service_importance": 1,
+          "profile_notes": "Quantitative academic fit matters."
+        }
+      ]
+    }
+  ]
+}
